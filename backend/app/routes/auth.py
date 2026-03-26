@@ -51,7 +51,7 @@ def registro(usuario: UsuarioCreate, db: Session = Depends(get_db)):
 
 @router.post("/login", response_model=Token)
 def login(dados: UsuarioCreate, db: Session = Depends(get_db)):
-    usuario + db.query(Usuario).filter(Usuario.email == dados.email).first()
+    usuario = db.query(Usuario).filter(Usuario.email == dados.email).first()
 
     if not usuario or not verificar_senha(dados.senha, usuario.senha_hash):
         raise HTTPException(
@@ -60,4 +60,4 @@ def login(dados: UsuarioCreate, db: Session = Depends(get_db)):
         )
 
     token = criar_token({"sub": usuario.email})
-    return {"acess_token": token, "token_type": "bearer"}
+    return {"access_token": token, "token_type": "bearer"}
