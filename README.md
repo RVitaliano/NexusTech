@@ -194,3 +194,15 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 ```
 
+---
+
+## 🖥️ Telas
+
+<img width="1858" height="937" alt="Screenshot" src="https://github.com/user-attachments/assets/477863b6-96e2-4e07-ab32-7d9f9a6cce38" />
+<img width="1858" height="922" alt="Screenshot_1" src="https://github.com/user-attachments/assets/dcb54171-c091-48ac-b906-649c75da692f" />
+<img width="1840" height="940" alt="Screenshot_2" src="https://github.com/user-attachments/assets/d6c4e7f7-03ed-4f80-aaaf-3747ddeeeb6d" />
+<img width="1859" height="908" alt="Screenshot_3" src="https://github.com/user-attachments/assets/37d44a50-6fdc-4c62-959e-12efd56515eb" />
+<img width="1858" height="937" alt="Screenshot_4" src="https://github.com/user-attachments/assets/ef8904b2-57cf-4d0f-a93b-49c731b440e0" />
+<img width="1859" height="940" alt="Screenshot_5" src="https://github.com/user-attachments/assets/7d703ef6-f796-453b-9a0a-f0b61b2b78b2" />
+<img width="1845" height="935" alt="Screenshot_6" src="https://github.com/user-attachments/assets/52d8d3b9-0d55-4de1-ae90-004bd940fd5d" />
+
