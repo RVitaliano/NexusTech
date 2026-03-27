@@ -8,6 +8,7 @@ backend/.env
 # Frontend
 frontend/node_modules/
 frontend/dist/
+frontend/.env
 
 # Sistema
 .DS_Store
@@ -16,3 +17,16 @@ Thumbs.db
 # IDEs
 .idea/
 .vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build Python
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# Variáveis de ambiente genéricas
+*.env
+!*.env.example
